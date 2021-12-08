@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+header{
+    padding: 10px 0;
+    text-align: center;
+    background-image: url(..//img/Jean\ corno.jpg);
+    width: 100%;
+    background-position: 50%;
+}
+.img img{
+    width: 100%;
+    height: 700px;
+    
+    
+}
+
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    text-align: right;
+    padding: 15px 0;
+    margin-top: 0px;
+    
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+nav li a:hover{
+    
+    border-radius: 10px;
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #444;
+    transition: 400ms;  
+}
+li{
+    color: white;
+    
+}
+nav li{
+    display: inline-block;
+    padding-right: 80px;
+    margin-right: 50px; 
+    padding-left: 20px;
+    text-align: center;
+    
+     
+}
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.col h1 {
+    width: 280px;
+    text-decoration: none;
+    
+    
+}
+.conteiner{
+    color: #fff;
+    width: 480px;
+    padding: 70px 0;
+    margin-left: 50px;
+    text-align: center;
+}
+.col p{
+    padding-left: 80px; 
+    text-align: justify;   
+    
+}
+.conteiner h1{
+    color: #fff;
+    padding: 10px;
+    margin-left: 70px;   
+    font-family: 'Rampart One', cursive;
+    padding-top: 60px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    font-size: 17px;
+   
+
+}
+.col img{
+    height: 500px;
+    width: 750px;
+}
+figure img{
+    height: 300px;
+    width: 500px; 
+}
+figure img{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+.texto-centralizado{
+    text-align: center;
+    color: #000;
+    padding-top: 5px;
+    font-size: 35px;
+    background-color: #fff;
+    top: 30px;
+}
+.btn-patinha {
+    border: 1px solid #111;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.produto h3 {
+    font-family: 'Rampart One', cursive;
+    padding-left: 0px;
+    font-size: 25px;
+}
+.produto p{
+    font-family: 'Rampart One', cursive;
+    padding-left: 0px;
+    font-size: 40px;
+}
+.produto a{
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+article ul{
+    margin: 80px;
+    font-size: 25px;
+    font-family: 'Rampart One', cursive;;
+}
+form{
+    width: 380px;
+}
+form input, textarea{
+    width: 100%;
+    border:  1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.col strong{
+    font-size: 25px;
+    
+}
+iframe{
+    width: 600%;
+    height: 50%;
+    padding-left: 150%;
+    padding-top: 150px;
+}
+.redes{
+    margin: 50px;
+}
+footer{
+    border: 1px solid #6dd432;
+    font-size: 12px;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
